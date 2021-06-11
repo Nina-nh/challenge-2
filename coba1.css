@@ -1,0 +1,99 @@
+body {
+    height: 2000px;
+    background-color: rgb(87, 190, 151);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    
+@font-face {
+        font-family: 'Apercu';    
+        src: url("assets/BebasNeue-Regular.ttf");
+        font-weight: 500;
+        font-style: normal;
+    }
+}
+
+
+
+.container{
+    width:25vw;
+    height:10vh
+}
+.row{
+    display: flex;
+    flex-wrap:wrap;
+}
+.col{
+    flex-grow:30%; margin: 5px; padding:7px;
+}
+
+.leftBack{
+    width:30vw;
+}
+
+.batu {
+    margin: 50px auto;
+    width: 128px;
+    height: 92px;
+    cursor: pointer;    
+}
+
+.kertas {
+    margin:50px auto;
+    width: 115px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.gunting {
+    margin: 50px auto;
+    width: 134px;
+    height: 160px;
+    cursor: pointer;
+}
+
+.vs {
+    margin-top: 327px;
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 196px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: darkred;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    margin-top: 327px;
+    width: 271.11px;
+    height: 166.93px;
+    background: dodgerblue;
+    border-radius: 10px;
+    transform: rotate(-28.87deg);
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 52px;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: floralwhite;
+}
+
+.refresh {
+    margin-top: 250px;
+    margin-bottom: 40px;
+    margin-left: 120px;
+    width: 77px;
+    height: 71px;
+    cursor: pointer;
+}
+
+.title-com {
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 36px;
+    
+}
